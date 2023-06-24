@@ -1,0 +1,38 @@
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.color-picker{
+    zoom: 2;
+}
+
+@media (max-width: 750px){
+    .colors{
+        gap: 22px;
+    }
+    .color-picker{
+        zoom: 1.5;
+    }
+}
+
+@media (max-width: 500px){
+    .colors{
+        gap: 10px;
+    }
+    .color-picker{
+        zoom: 1;
+    }
+}

@@ -1,0 +1,15 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+justify-content: center;
+}
+
+.icon-logo{
+    margin-top: 20px;
+    width: 50%;
+    background-image: url("../../../public/group.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
